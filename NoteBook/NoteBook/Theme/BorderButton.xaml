@@ -1,0 +1,93 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style TargetType="Border" x:Key="BorderButton">
+        <Setter Property="Padding" Value="5,5,5,5"/>
+        <Setter Property="CornerRadius" Value="20"/>
+        <Setter Property="BorderThickness" Value="1.5"/>
+        <Setter Property="BorderBrush" Value="LightYellow"/>
+    </Style>
+
+    <Style TargetType="Border" x:Key="BorderListBox">
+        <Setter Property="Padding" Value="5,5,5,5"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="BorderBrush" Value="LightYellow"/>
+
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#19FFFFFF"/>
+                    <GradientStop Color="#3F000000" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+
+        <Setter Property="BorderBrush">
+            <Setter.Value>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0E3C57" Offset="0"/>
+                    <GradientStop Color="#FF122E3F" Offset="1"/>
+                    <GradientStop Color="#FF16A4E6" Offset="0.678"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+
+        <!--<Setter Property="Button.Effect">
+            <Setter.Value>
+                <DropShadowEffect BlurRadius="45" Opacity="0.5"/>
+            </Setter.Value>
+        </Setter>-->
+
+    </Style>
+
+    <Style TargetType="Border" x:Key="BorderTextBox">
+        <Setter Property="Padding" Value="5,5,5,5"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="BorderBrush" Value="LightYellow"/>
+
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#19DAC5FF"/>
+                    <GradientStop Color="#7FA0F6FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+
+        <Setter Property="BorderBrush">
+            <Setter.Value>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF527FA4" Offset="0.998"/>
+                    <GradientStop Color="#FF5893C3"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+
+        <Setter Property="Button.Effect">
+            <Setter.Value>
+                <DropShadowEffect BlurRadius="45" Opacity="0.5"/>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
+
+
+
+
+    <!--<Border.BorderBrush>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF527FA4" Offset="0.998"/>
+            <GradientStop Color="#FF5893C3"/>
+        </LinearGradientBrush>
+    </Border.BorderBrush>
+    <Border.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#19DAC5FF"/>
+            <GradientStop Color="#7FA0F6FF" Offset="1"/>
+        </LinearGradientBrush>
+    </Border.Background>-->
+
+</ResourceDictionary>
