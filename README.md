@@ -51,8 +51,12 @@ Il peut présicer la date de l'examen, le professeur qui a donné le contrôle.
 # 🧰 Quelques captures d'écran
 
 <p align="center">
-  <img src="presentation/fenetre maitresse.png" width="500">
-  <img src="media/fonctionnalites/fonctionnalites_2.jpg" width="500">
-  <img src="media/fonctionnalites/fonctionnalites_3.jpg" width="500">
+  <img src="Presentation/fenetre maitresse.PNG" >
+ <img src="Presentation/unites_et_modules_2.PNG" >
+  <img src="Presentation/creation_examen.PNG" >
+ <img src="Presentation/creation_examen_date.PNG" >
+ <img src="Presentation/creation_unite.PNG" >
+ <img src="Presentation/Moyennes_1.PNG" >
+ <img src="Presentation/Moyennes_2.PNG" >
 </p>
 
